@@ -60,6 +60,9 @@ footer p a {
     text-decoration: none;
     color: white;
 }
+footer p a:hover {
+    color: orange;
+}
 /*styles for the navbar div*/
 .navbar {
     margin: 10px auto;
