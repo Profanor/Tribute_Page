@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* styles for the body */
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+}
+/*styles for the main container div*/    
+.container {
+    box-sizing: border-box;
+    background-color: rgb(22, 19, 19);
+    margin: 0px auto;
+    padding: 2em;
+    width: 100%;
+}
+/* styling for michael's photo container div*/
+.box-image {
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-image: url('/Images/MJ.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+}
+/* made use of css flexbox to align the box-image div and the right div next to each other*/
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+/*styles for the navbar div*/
+.navbar {
+    margin: 10px auto;
+    width: 100%;
+}
+/* styling for the unordered list */
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/*styling for the list items*/
+li {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+}
+/* styling for the link list items*/  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}  
+/* styling on hover of the link list items*/
+li a:hover {
+    background-color: #111;
+}
+/* styling for the share button*/
+.btn {
+    border: none;
+    border-radius: 25px;
+    background-color: orange;
+    color: white;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    height: 45px;
+    width: 170px;
+    cursor: pointer;
+}
+/* styling for the share button on hover*/
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+/* styling for the right div*/
+.right {
+    margin: 10px auto;
+    color: white;
+    width: 400px;
+    padding: 20px;
+}
+/* styling for the h1 text on the right div*/
+.right h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+/* styling for the h2 text on the right div*/
+.right h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+/* styling for the paragraph text on the right div*/
+.right p {
+    color: rgb(226, 226, 181);
+    margin: 10px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 20px;
+}
+/* styling for & sensation */
+.style {
+    color: orange;
+}
+/*styles for musical genius & sensation*/
+.prg {
+    margin: 30px auto;
+}
